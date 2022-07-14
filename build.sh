@@ -139,7 +139,9 @@ FLASHING(){
 	adb reboot recovery
 	echo "X......As soon as you boot into recovery, run ADB sideload and then press ANY KEY"
 	read -n1 -r key
-	adb sideload $ZIP
+	cd KKRT
+	adb sideload $ZIP >/dev/null 2>&1
+	cd ..
 	echo "X......Flashing Done!"
 }
 
