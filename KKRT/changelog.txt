@@ -4,10 +4,10 @@ By: @Neel0210
 
 <b>Changelog</b>
 <code>• Kakarot release 1.2 🐉-for <b>RUI-AOSP</b>
-• Updated ZRAM algorithem
-• Enabled: NTFS file system
-• Added: WireGuard Support
-• Updated TCP window size (Speed Improvements)
+• 
+• 
+• 
+• 
 </code>
 
 <b>Note</b>
